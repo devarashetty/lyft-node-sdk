@@ -55,7 +55,7 @@ export default class PassengerDetail {
     */
     static constructFromObject(data, obj) {
         if (data) {
-            obj = obj || new PassengerDetail();
+            obj = obj || new UserDetail();
 
             
             
